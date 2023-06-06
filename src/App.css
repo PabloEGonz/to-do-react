@@ -19,31 +19,33 @@ form {
   width: 50%;
   background-color: gray;
   flex-direction: column;
-  padding: 5%;
+  padding: 2% 5%;
   border-radius: 10px;
   align-items: center;
   margin: auto;
 }
+
 form input {
-  width: 65%;
+  width: 85%;
   height: 35px;
   padding: 1% 2%;
   font-size: 1.1rem;
   border-radius: 5px;
 }
+
 form button {
   width: 20%;
   height: 30px;
   font-weight: 600;
   border-radius: 5px;
-  margin: 4%;
+  margin-top: 3%;
 }
 
 ul {
   width: 50%;
   list-style: none;
   background-color: rgb(236, 240, 240);
-  padding: 3% 1%;
+  padding: 2% 1%;
   flex-direction: column;
   align-items: center;
   margin: 5% auto;
