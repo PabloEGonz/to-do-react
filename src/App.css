@@ -1,38 +1,108 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
   text-align: center;
+  background-color: rgb(30, 30, 30);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
+}
+
+h1 {
+  color: #fff;
+}
+
+form {
+  width: 50%;
+  background-color: gray;
+  flex-direction: column;
+  padding: 5%;
+  border-radius: 10px;
+  align-items: center;
+  margin: auto;
+}
+form input {
+  width: 65%;
+  height: 35px;
+  padding: 1% 2%;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+form button {
+  width: 20%;
+  height: 30px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 4%;
+}
+
+ul {
+  width: 50%;
+  list-style: none;
+  background-color: rgb(236, 240, 240);
+  padding: 3% 1%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5% auto;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+ul li {
+  width: 95%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list {
+  width: 100%;
+  background-color: #7d7c7c;
+  justify-content: space-between;
+  padding: 1%;
+  margin: 2px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.list p {
+  margin: 0;
+  padding: 0;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none;
+}
+
+li input[type="checkbox"] {
+  transform: scale(1.9);
+}
+
+.task {
+  width: 95%;
+  padding: 1.7%;
+  background-color: inherit;
+  border: 2px solid #5d5c5c;
+  outline: none;
+  width: 100%;
+  margin: 2px;
+  font-size: 1.1rem;
+}
+
+.buttons{
+  width: 20%;
+}
+
+.buttons button {
+  border: none;
+  height: 30px;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 1% 5%;
+  margin-left: 5%;
 }
